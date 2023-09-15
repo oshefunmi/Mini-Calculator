@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(225, 205, 235);
+}
+
+header{
+    text-align: center;
+    color: rgb(44, 8, 58);
+    padding: 10px 5px;
+    background-color: rgb(163, 96, 189);
+}
+
+section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#answer{
+    grid-column: span 2;
+    text-align: center;
+    padding: 50x;
+    background-color: rgb(160, 88, 207);
+}
+
+main{
+    height: 80%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(216, 156, 231);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#work1, #work2{
+    font-size: 0.8em;
+    color: #1b1919;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button{
+    grid-column: span 2;
+    font-size: 1em;
+    color: rgb(203, 139, 233);
+    background-color: rgb(75, 16, 90);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 480px){
+   
+}
+
+
+footer{
+    text-align: center;
+    color: #111;
+}
+
+#add{
+    background-color: rgb(150, 6, 247);
+}
+
+#sub{
+    background-color: rgb(116, 9, 187);
+}
+
+#div{
+    background-color: rgb(79, 3, 129);
+}
+
+#mul{
+    background-color: rgb(52, 8, 82);
+}
+
+#squR{
+    background-color: rgb(30, 2, 49);
+}
+
+#sqr{
+    background-color: rgb(18, 1, 29);
+}
