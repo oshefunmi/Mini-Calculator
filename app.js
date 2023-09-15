@@ -30,7 +30,7 @@ function mulme(first, sec){
 }
 
 function squRMe(first){
-    let sqr = Number(first) / Number(2);
+    let sqr = Math.sqrt(first,2);
     return sqr;
 }
 
